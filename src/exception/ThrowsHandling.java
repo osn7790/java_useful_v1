@@ -28,7 +28,7 @@ public class ThrowsHandling {
 class Calc {
 
     // 예외 발생할 수 있는 코드에서 직접 예외처리를 할 수 있지만
-    // 사용하느느 시점(사용하는 사람이) 알아서 적절하게 예외처리를 던질 수 있다.
+    // 사용하는 시점(사용하는 사람이) 알아서 적절하게 예외처리를 던질 수 있다.
     public int divide(int n1, int n2) throws Exception {
         return n1 / n2;
     }
