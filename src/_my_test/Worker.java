@@ -7,7 +7,7 @@ public class Worker {
     public static void main(String[] args) {
 
         WorkerExteds worker1 = new WorkerExteds("워커상속버젼");
-        worker1.run();
+        worker1.start();
 
     }
 
