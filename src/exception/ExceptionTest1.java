@@ -8,6 +8,7 @@ public class ExceptionTest1 {
         int result = 0;
 
         Calc2 calc2 = new Calc2();
+
         try {
             calc2.divide(10, 0);
         } catch (DvideByZeroException e) {

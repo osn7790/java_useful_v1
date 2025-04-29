@@ -21,7 +21,7 @@ public class BorderLayoutEx extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         initData();
-        setInitLayout(); // 순서를 바꾸면 nullpoint Exception 뜸.
+        setInitLayout(); // 순서를 바꾸면 nullpoint Exception 뜸. 왜냐? buttons의 값이 없기 때문에
 
     }
 
@@ -30,7 +30,7 @@ public class BorderLayoutEx extends JFrame {
         buttons = new JButton[5];
         // for 구문으로 수정하세요
         for(int i = 0; i < buttons.length; i++) {
-            buttons[i] = new JButton("buttons" + (i + 1));;
+            buttons[i] = new JButton("buttons" + (i + 1));
 
 //            buttons[0] = new JButton();
 //            buttons[1] = new JButton();
